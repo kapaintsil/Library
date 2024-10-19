@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/a88444ed5b.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>LIBRARY</title>
+</head>
+<body>
+    <header>
+      <div class="website-head">
+        <h1>Project Book Library</h1>
+      </div>
+      <div class="addbook">
+        <div>
+          <span class="plus"><i class="fa-solid fa-plus"></i></span>
+          <span class="check"><i class="fa-solid fa-check"></i></span>
+          </i>
+        </div>
+        <p> add new book</p>
+        <form action="">
+          <div>
+            <label for="author">Author:</label>
+            <input type="text" name="author" id="author" autofocus="true">
+          </div>
+          <div>
+            <label for="book-title">Book title:</label>
+            <input type="text" name="book-title" id="book-title">
+          </div>
+          <div>
+            <label for="num-of-pages">Number of pages:</label>
+            <input type="number" id="num-of-pages">
+          </div>
+          <div>
+            <fieldset>
+              <legend>Have you read?</legend>
+              <label for="yes">Yes</label>
+              <input type="radio" name="haveRead" id="yes">
+              <label for="no">No</label>
+              <input type="radio" name="haveRead" id="no">
+            </fieldset>
+          </div>
+          <div>
+            <button id="add-book-button">Add</button>
+            <button id="cancel-button">
+              <i class="fa-solid fa-xmark"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+      <div class="credentials">
+        <p>Kwame Adonoo Painstil</p>
+        <div>
+          <a href="https://github.com/kapaintsil" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://x.com/KwameAdonoo" target="_blank" rel="noopener noreferrer">
+            <i class="fa-brands fa-square-x-twitter"></i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main>
+      
+      <!-- <div class="book-card">
+        <h1 id="title">Harry Potter</h1>
+        <h3 id="author">by: J . K Rowling</h3>
+        <h4 id="numOfPages"> 300 pages</h4>
+        <p id="status">status: Have Read</p>
+        <button id="remove-book-button">remove book</button>
+      </div> -->
+
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
